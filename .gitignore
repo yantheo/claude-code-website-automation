@@ -1,0 +1,45 @@
+# Environnement Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de donnees
+backend/*.db
+backend/database.db
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+
+# Uploads (garder la structure mais pas les fichiers)
+backend/uploads/services/*
+backend/uploads/gallery/*
+!backend/uploads/services/.gitkeep
+!backend/uploads/gallery/.gitkeep
+
+# Node modules
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Divers
+*.bak
+*.tmp
